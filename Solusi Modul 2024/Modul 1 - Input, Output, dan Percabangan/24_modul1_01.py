@@ -1,3 +1,5 @@
+# Program Ganjil-Genap
+
 N = int(input("Masukkan nilai N: "))
 
 if N>0:
