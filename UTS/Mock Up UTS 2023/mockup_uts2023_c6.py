@@ -10,12 +10,4 @@ elif x == 2:
 elif x == 3:
     print(f"\"{names[0]}, {names[1]}, and {names[2]} like this\"")
 else:
-    for i in range (x):
-        if i == x-1:
-            print(f"and {names[i]} like this\"")
-        elif i == x-2 :
-            print(f"{names[i]} ", end="")
-        elif i == 0:
-            print(f"\"{names[i]}, ", end="")
-        else: 
-            print(f"{names[i]}, ", end="")
+    print(f"\"{names[0]}, {names[1]} and {x-2} others like this\"")
