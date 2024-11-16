@@ -9,7 +9,7 @@ for i in range (N):
     bb = []
     for j in range (x):
         # Mengenali berat badan petinju ke-1
-        if arr[j] == '0' or arr[j] == '1' or arr[j] == '2' or arr[j] == '3' or arr[j] == '4' or arr[j] == '5' or arr[j] == '6' or arr[j] == '7' or arr[j] == '8' or arr[j] == '9':
+        if arr[j] in['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']:
             bb += [int(arr[j])]
         elif arr[j] == 'k': # Mengenali kg atau lb
             tanda = True
